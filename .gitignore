@@ -1,2 +1,9 @@
+# Ignore all except folders and files with a .
+*
+!*/
+!*.*
 # Executables
 *.out
+# Intermediate
+__pycache__
+*.pyc
