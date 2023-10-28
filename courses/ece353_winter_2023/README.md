@@ -7,5 +7,5 @@ https://www.youtube.com/watch?v=qHhpiqOfFpM&list=PLunILarQwxnl0SZ2zsgyVjU9NDD_Rn
 
 Notes:
 
-[1. Overview]("./01_Overview.md")  
-[2. Kernel Mode]("./02_Kernel_Mode.md") 
+[1. Overview](01_Overview.md)  
+[2. Kernel Mode](02_Kernel_Mode.md) 
