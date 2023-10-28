@@ -1,5 +1,6 @@
 # Information Theory, Pattern Recognition, and Neural Networks.
 ## David MacKay (University of Cambridge) 2012
+### Lecture 1: Introduction to Information Theory
 
 [Lecture on Youtube](https://www.youtube.com/watch?v=BCiZc0n6COY&list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6&index=1)
 
