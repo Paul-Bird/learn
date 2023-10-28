@@ -14,7 +14,7 @@ Source -> Encoder -> transmission -> channel -> received -> Decoder -> Message
 Encoder adds redundancy
 Decoder uses redundancy to infer n & s
 
-Toy model:  Binary symetric channel
+Toy model:  Binary symmetric channel
 
 Input 0 or 1  
 Output 0 or 1  
