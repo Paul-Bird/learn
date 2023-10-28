@@ -1,7 +1,7 @@
 # Information Theory, Pattern Recognition, and Neural Networks.
 ## David MacKay (University of Cambridge) 2012
 
-[Lecture](https://www.youtube.com/watch?v=BCiZc0n6COY&list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6&index=1).
+[Lecture on Youtube](https://www.youtube.com/watch?v=BCiZc0n6COY&list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6&index=1)
 
 Improve (speed / reliability) communications two approaches:
 - physical solutions: better cables / insulation.
@@ -78,6 +78,31 @@ Homework problem how many repetitions needed to achieve 10^-15 or better
 
 1000 --> 1000 101  
 1110 --> 1110 100  
+
+The 3 additional bits used to keep even parity
+
+On the decoder flipped bits may or may not break the parity
+
+Pattern of correctness or not of the recieved message parity is known as the syndrome.
+
+Rules to determine likely cause:  
+- Intersection of all where parity is odd.
+
+Any single flip can be detected and corrected.
+If more than one flip occurs, then guess will be incorrect.
+
+#### Shannon - how far can we improve
+
+Boundary of achievable and unachievable does not go to 0, it goes to some non-zero point labelled as C (capacity of the channel)  
+
+><img src="shannon_capacity.png" alt="drawing" width="300"/>  
+><p>Capacity of binary symmetric channel</p>  
+
+an f of 0.1 there exists an encoding / decoding strategy that results in a capacity of ~0.53
+
+This is Shannon's [Noisy-channel coding theorem](https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem)  
+
+
 
 
 
