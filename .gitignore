@@ -2,6 +2,7 @@
 *
 !*/
 !*.*
+!Makefile
 # Executables
 *.out
 # Intermediate
