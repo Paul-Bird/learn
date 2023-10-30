@@ -1,23 +1,20 @@
-.data
+.global _start             // Provide program starting address to linker
+.align 2
 
-/* Data segment: define our message string and calculate its length. */
-msg:
-    .ascii      "Hello, ARM!\n"
-len = . - msg
+// Setup the parameters to print hello world
+// and then call Linux to do it.
 
-.text
+_start: mov X0, #1          // fd 1 stdout
+        adr X1, helloworld  // string to print
+        mov X2, #13         // length of our string
+        mov X16, #4         // MacOS write system call
+        svc 0
 
-/* Our application's entry point. */
-.globl _start
-_start:
-    /* syscall write(int fd, const void *buf, size_t count) */
-    mov     %r0, $1     /* fd := STDOUT_FILENO */
-    ldr     %r1, =msg   /* buf := msg */
-    ldr     %r2, =len   /* count := len */
-    mov     %r7, $4     /* write is syscall #4 */
-    swi     $0          /* invoke syscall */
+// Setup the parameters to exit the program
+// and then call Linux to do it.
 
-    /* syscall exit(int status) */
-    mov     %r0, $0     /* status := 0 */
-    mov     %r7, $1     /* exit is syscall #1 */
-    swi     $0          /* invoke syscall */
+        mov     X0, #0      // Use 0 return code
+        mov     X16, #1     // Service command code 1 terminates this program
+        svc     0
+
+helloworld:      .ascii  "Hello World!\n"
