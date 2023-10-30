@@ -5,6 +5,7 @@
 # Executables
 *.out
 # Intermediate
+*.o
 __pycache__
 *.pyc
 # Other

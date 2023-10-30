@@ -4,7 +4,6 @@
 			                    # entry point.
 
 _start:
-
                                 # write our string to stdout
 
 	  movl    $len,%edx           # third argument: message length
