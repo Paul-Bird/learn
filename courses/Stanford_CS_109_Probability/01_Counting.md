@@ -23,14 +23,12 @@ P(zika|positive test) = 9%
 
 ### Building Blocks
 
-AI
-
-Uncertainty Theory
-
-Single Random       Probability Models 
-Variables
-
-Counting            Probability Fundamentals
+```mermaid
+flowchart TD;
+    A[AI]---B[Uncertainty Theory];
+    B---C[Single Random Variables & Probability Models];
+    C---D[Counting & Probability Fundamentals];
+```
 
 ### Counting
 
@@ -39,15 +37,9 @@ Counting            Probability Fundamentals
 - Role two dice 36 outcomes {(1,1)(1,2)...(2,1)...(6,6)}
 
 Step Rule of Counting - where |B| is unaffected by |A|
-$$ |A||B| = mn $$
+> $$ |A||B| = mn $$
 
 
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+
 
