@@ -96,8 +96,7 @@ If more than one flip occurs, then guess will be incorrect.
 
 Boundary of achievable and unachievable does not go to 0, it goes to some non-zero point labelled as C (capacity of the channel)  
 
-><img src="shannon_capacity.png" alt="drawing" width="300"/>  
-><p>Capacity of binary symmetric channel</p>  
+> $$ C(f) = 1 - H_2(f) = 1 - \left[ f\text{ }log_2 \frac{1}{f} + (1 - f)log_2 \frac{1}{1-f}\right] $$
 
 an f of 0.1 there exists an encoding / decoding strategy that results in a capacity of ~0.53
 
