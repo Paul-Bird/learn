@@ -15,9 +15,9 @@ Open Problem: One Shot Learning
 ### Example of probability
 
 A patient has a positive zika test.
-0.8% of population have zika.
-90% positive rate for people with zika
-7% false positive rate 
+- 0.8% of population have zika.
+- 90% positive rate for people with zika
+- 7% false positive rate 
 
 P(zika|positive test) = 9% 
 
