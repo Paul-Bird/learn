@@ -39,7 +39,33 @@ flowchart TD;
 Step Rule of Counting - where |B| is unaffected by |A|
 > $$ |A||B| = mn $$
 
+Sum Rule of Counting - outcomes from Set A or Set B
+> $$ |A| + |B| \text{ Only if } |A \text{ and } B| = 0 $$
 
+#### Question
 
+How Many 6 digit binary strings start with 01 or end with 10:
 
+- For the prefix the last four digits can be any sequence $ 2^4 $ 
+- For the suffix the first four digits can be any sequence $ 2^4 $ 
+- we need to minus the overlap $ 2^2 $ (Sum Rule of Counting)
 
+> $$ |A| + |B| - |A \cap B| $$
+
+Therefore answer $ 2^4 + 2^4 - 2^2 $ = 28.
+
+#### Question
+
+How many unique ways to order letters BOBA
+
+> $ (4)(3)(2)(1) = 24 $ then divide by two as half are duplicates = 12
+
+How many unique ways to order letters MISSISSIPPI
+
+Total combinations 11!
+- 4! combinations of 4 I's to remove
+- 2! combinations of 2 P's to remove
+- 4! combinations of 4 S's to remove
+- 24 * 2 * 24 = 1152
+
+> $ 11! / 1152 = 34650 $
