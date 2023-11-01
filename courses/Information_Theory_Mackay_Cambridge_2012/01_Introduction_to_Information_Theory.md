@@ -8,9 +8,15 @@ Improve (speed / reliability) communications two approaches:
 - physical solutions: better cables / insulation.
 - system solution: accept physical limitations, improve reliability with encoding / decoding.
 
-Source -> Encoder -> transmission -> channel -> received -> Decoder -> Message
-  s                       t          (n noise)      r                  s (guess)
-
+```mermaid
+flowchart LR;
+    A[Source \n s]-->B[Encoder];
+    B-->C[transmission \n t];
+    C-->D[channel \n noise n];
+    D-->E[received \n r];
+    E-->F[Decoder];
+    F-->G[Message \n s^ ];
+```
 
 Encoder adds redundancy
 Decoder uses redundancy to infer n & s
@@ -101,8 +107,3 @@ Boundary of achievable and unachievable does not go to 0, it goes to some non-ze
 an f of 0.1 there exists an encoding / decoding strategy that results in a capacity of ~0.53
 
 This is Shannon's [Noisy-channel coding theorem](https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem)  
-
-
-
-
-
