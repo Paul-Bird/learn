@@ -11,7 +11,6 @@ int main()
 }
 
 double bayes_probability(double a, double b){
-  // P(A|B) = P(B|A)P(A) / P(B)
-  // TODO
+  //TODO
   return a;
 }
