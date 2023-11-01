@@ -5,7 +5,9 @@
 !Makefile
 # Executables
 *.out
+[Bb]in/
 # Intermediate
+[Oo]bj/
 *.o
 __pycache__
 *.pyc
