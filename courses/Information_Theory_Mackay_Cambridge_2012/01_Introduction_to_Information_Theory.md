@@ -79,7 +79,7 @@ Homework problem how many repetitions needed to achieve 10^-15 or better
 (answer about 61!)  
 
 #### 7,4 Hamming Code
-[47:34]("https://youtu.be/BCiZc0n6COY?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6&t=2854")  
+[47:34](https://youtu.be/BCiZc0n6COY?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6&t=2854)  
   
 4 source bits converted to 7 transmitted bits.  
 

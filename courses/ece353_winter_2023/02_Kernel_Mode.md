@@ -31,7 +31,7 @@ X5 - 6th argument
 
 System calls are represented like regular C functions, they run in kernel mode and interact with the hardware.  
 
-[Executable and Linkable Format (ELF)]("https://en.wikipedia.org/wiki/Executable_and_Linkable_Format")
+[Executable and Linkable Format (ELF)](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
 
 first 4 bytes 0x7F 'E' 'L' 'F' followed by byte for architecture 32bit / 64bit  
 
