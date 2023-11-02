@@ -14,5 +14,7 @@ Reading Material:
 
 [deep learning applications in the field of computational biology]("https://github.com/gokceneraslan/awesome-deepbio") 2019
 
-https://colah.github.io/posts/2015-09-Visual-Information/
+https://colah.github.io/posts/2015-09-Visual-Information/  
 
+
+[Slides](https://mit6874.github.io/assets/sp2021/slides/l01.pdf)
