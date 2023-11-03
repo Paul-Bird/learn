@@ -6,6 +6,6 @@
 [Youtube Playlist](https://www.youtube.com/playlist?list=PLB7540DEDD482705B)  
 
 [1 Intro and Proofs](01_Introduction_Proofs.md)  
-[2 Induction]()  
-[3 Strong Induction]()  
+[2 Induction](02_Induction.md)  
+[3 Strong Induction](03_Strong_Induction.md)  
 
