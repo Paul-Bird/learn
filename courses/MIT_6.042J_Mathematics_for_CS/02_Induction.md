@@ -65,11 +65,27 @@ Basecase: $ \qquad P(b) $ is true
 Inductive Step: $ \forall n \geq b \quad P(n) \implies P(n+1) $  
 Conclude: $ \qquad \forall n \geq b \quad P(n)$  
   
-Courtyard $ 2^n by 2^n $ using L shaped tiles  
-  
-1:02:00  
-  
-  
+
+> Courtyard $ 2^n by 2^n $ using L shaped tiles   
+> Theorem: $ \: \forall n, \exists $ a way to tile a $ 2^n \text{ by } 2^n $ region with one corner left over.  
+>  
+> Proof by induction:
+>  
+> Predicate: $ \: P(n) \text{ tile  a } 2^n \text{ by } 2^n $ region with one corner left over.
+>  
+> Basecase: $ P(0) = 1 $ square / no tiles $ \checkmark $  
+> Inductive Step: for $ n \geq 0 $ assume $ P(n) $  
+> We need to show $ P(n+1) is true $  
+>  
+> Consider a $ 2^{n+1} \text{ by } 2^{n+1} $  
+> divide the $ 2^{n+1} \text{ square } $ into 4 $  
+> then you have $ \text{ four } 2^{n} \text{ squares }$  
+>  
+>  In this example easier to make $ P(n) $ stronger to prove left over square can be anywhere  
+
+
+
+
 
 
 
