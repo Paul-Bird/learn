@@ -2,6 +2,8 @@
 ## MIT 6.042J - Fall 2010
 ### Lecture 2: Induction 
 
+[Reading 3](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/mit6_042jf10_chap03/)  
+
 #### Proof by Contradiction
 
 To prove P is true, first assume P is false, take logical steps until you reach a contradiction. Therefore showing P is not false.
