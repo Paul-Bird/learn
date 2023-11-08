@@ -3,6 +3,7 @@
 !*/
 !*.*
 !Makefile
+*.sln
 # Executables
 *.out
 [Bb]in/
