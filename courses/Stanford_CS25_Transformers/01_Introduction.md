@@ -31,4 +31,11 @@ Did not work well for
 
 #### Attention Is All You Need
 
-14:00
+Where did the transformer come from ?
+
+[A Neural Probabilistic Language Model - 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)  
+[Sequence to Sequence Learning with Neural Networks - 2014](https://arxiv.org/pdf/1409.3215.pdf)  
+[Neural Machine Translation by Jointly Learning to Align and Translate - 2014](https://arxiv.org/pdf/1409.0473.pdf)  
+
+
+
