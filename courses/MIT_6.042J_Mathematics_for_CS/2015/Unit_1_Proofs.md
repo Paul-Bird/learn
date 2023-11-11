@@ -22,11 +22,11 @@ Proof by calculation, use the two values from the quadratic formula:
 $$ r_1 = \frac{-b+\sqrt{b^2-4ac}}{2a} \quad r_1 = \frac{-b-\sqrt{b^2-4ac}}{2a} $$ 
 
 Counter-examples:
-- $ 0x^2 + 0x + 1 \quad $ Horizontal line has 0 roots
-- $ 0x^2 + 1x + 1 \quad $ 45% line has 1 root  
+- $0x^2 + 0x + 1 \quad$ Horizontal line has 0 roots
+- $0x^2 + 1x + 1 \quad$ 45% line has 1 root  
 Cannot use quadratic formula when $ a = 0 $  
 
-- $ 1x^2 + 0x + 0 \quad $ Has 1 root
+- $1x^2 + 0x + 0 \quad$ Has 1 root
 
 Ambiguity can cause problems:
 
@@ -35,7 +35,7 @@ $$ 1 = \sqrt{1} = \sqrt{(-1)(-1)} = \sqrt{-1} \sqrt{-1} = (\sqrt{-1})^2 = -1 $$
 #### 1.2.1 Proof by Contradiction
 
 > Example:
-> Is $ \sqrt[3]{1332} \leq 11 $  
+> Is $\sqrt[3]{1332} \leq 11$  
 > Easier than calculating the $ \sqrt[3]{} $,  
 > cube both sides, calculate $ 11^3 $ to show $ 1332 \leq 1331 $ is false.  
 
