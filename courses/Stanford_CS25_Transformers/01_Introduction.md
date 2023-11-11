@@ -37,5 +37,5 @@ Where did the transformer come from ?
 [Sequence to Sequence Learning with Neural Networks - 2014](https://arxiv.org/pdf/1409.3215.pdf)  
 [Neural Machine Translation by Jointly Learning to Align and Translate - 2014](https://arxiv.org/pdf/1409.0473.pdf)  
 
-
+22:56 
 
