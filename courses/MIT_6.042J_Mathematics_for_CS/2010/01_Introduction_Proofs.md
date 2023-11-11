@@ -11,13 +11,13 @@ A mathematical proof is a verification of a proposition by a chain of logical de
 A proposition is a statement that is either true or false.
 
 > Example proposition  
-> $ \forall n \in \mathbb{N}, n^2 + n + 41 \quad $ is a prime number 
+> $\forall n \in \mathbb{N}, n^2 + n + 41 \quad$ is a prime number 
 
 A predicate is a propsition whose truth depends on the value of a variable.  
 
 > Example proposition  
-> $ a^4 + b^4 + c^4 = d^4 $ has no positive integer solutions  
-> $ \exists \: a,b,c,d \in \mathbb{N}^+, \: a^4 + b^4 + c^4 = d^4 $  
+> $a^4 + b^4 + c^4 = d^4$ has no positive integer solutions  
+> $\exists \: a,b,c,d \in \mathbb{N}^+, \: a^4 + b^4 + c^4 = d^4$  
 
 > Four colour theorum.  
 > The regions in any map can be coloured in 4 colours so that no adjacent regions have the same colour.  
@@ -25,14 +25,14 @@ A predicate is a propsition whose truth depends on the value of a variable.
 > Goldbachs conjecture  
 > Every even natural number greater than 2 is the sum of two prime numbers.  
 
-$ \forall n \in \mathbb{Z}, \: n \geq 2 \implies n^2 \geq 4 $
+$\forall n \in \mathbb{Z}, \: n \geq 2 \implies n^2 \geq 4 $
 
-An implication $ p \implies q \: $ is true if $ p $ is false or $ q $ is true.
+An implication $p \implies q \: $is true if $p$ is false or $q$ is true.
 
-> $ \forall n \in \mathbb{Z}, \: n \geq 2 \iff n^2 \geq 4 $  
-> $ \iff $ means implication both ways  
+> $\forall n \in \mathbb{Z}, \: n \geq 2 \iff n^2 \geq 4$  
+> $\iff$ means implication both ways  
 
-| p | q | $ p \implies q $ | $ q \implies p $ | $ q \iff p $ |
+| p | q | $p \implies q$ | $q \implies p$ | $q \iff p$ |
 | - | - | :-: | :-: | :-: |
 | T | T | T | T | T |
 | T | F | F | T | F |
