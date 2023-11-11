@@ -1,4 +1,4 @@
-# https://dannyarends.nl/assignments/Assignment01-Introduction.pdf
+# https://dannyarends.nl/r2022/Assignment01-Introduction.pdf
 #
 # Calculator
 #1a) Addition

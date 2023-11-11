@@ -1,6 +1,6 @@
 ## Foundation
 
-- [Information Theory](Information_Theory_Mackay_Cambridge_2012/README.md)
+- [Information Theory](Cambridge_Information_Theory/README.md)
 - [Introduction to Algorithms](MIT_6.006_Introduction_Algorithms/README.md)
 - [Introductory Biology](MIT_7.016_Introductory_Biology/README.md)
 - [Mathematics for Computer Science](MIT_6.042J_Mathematics_for_CS/README.md)
