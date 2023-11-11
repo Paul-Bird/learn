@@ -32,9 +32,9 @@ flowchart LR;
 
 ### A bent coin
 
-$ x \in \{tails, heads\} $  
-$ P(x = tails) = 0.9 $  
-$ P(x = heads) = 0.1 $  
+$x \in \{tails, heads\}$  
+$P(x = tails) = 0.9$  
+$P(x = heads) = 0.1$  
 
 File with 1000 results. How much information does it contain, what is the smallest file size we can compress to.
 
@@ -43,32 +43,32 @@ In general an Ensemble X has
 - an Alphabet (possible outcomes)
 - a probability distribution
 
-> $$ X \text{ is } \{ x, Ax, Px \} $$ 
-> $$ Ax = \{a_1, a_2, ... a_n \} $$  
-> $$ Px = \{p_1, p_2, ... p_n \} $$  
+> $$X \text{ is } \{ x, Ax, Px \}$$ 
+> $$Ax = \{a_1, a_2, ... a_n \}$$  
+> $$Px = \{p_1, p_2, ... p_n \}$$  
 
 > such that   
-> $$ P(x=a_i) = p_i $$  
-> $$ \displaystyle\sum_{i=1}^{n} p_i = 1 \qquad p_i \geq 0$$
+> $$P(x=a_i) = p_i$$  
+> $$\displaystyle\sum_{i=1}^{n} p_i = 1 \qquad p_i \geq 0$$
 
 ### Shannon Information Content
 
 The Shannon information content of an outcome:
 
-> $$ x = a_i $$  
-> $$ h(x=a_i) = log_2 \frac{1}{P(x=a_i)} \quad \text{bits}$$  
+> $$x = a_i$$  
+> $$h(x=a_i) = log_2 \frac{1}{P(x=a_i)} \quad \text{bits}$$  
 
 Probability 1 has zero information content
 
 Probability of 1/2 has information content 1 bit:
 
-> $$ log_2 \frac{1}{0.5} = log_2(2) = \: \text{1 bit}$$  
+> $$log_2 \frac{1}{0.5} = log_2(2) = \: \text{1 bit}$$  
 
 Probability of 0.1:
-> $$ log_2 \frac{1}{0.1} = log_2(10) = \: \approx \text{3.32 bits}$$
+> $$log_2 \frac{1}{0.1} = log_2(10) = \: \approx \text{3.32 bits}$$
 
 Probability of 0.9:
-> $$ log_2 \frac{1}{0.9} = log_2(1.11) = \: \approx \text{0.15 bits}$$
+> $$log_2 \frac{1}{0.9} = log_2(1.11) = \: \approx \text{0.15 bits}$$
 
 h(x) is the possible compressed file length
 
@@ -77,14 +77,14 @@ h(x) is the possible compressed file length
 Information content is additive for independent random variables
 
 eg XY
-> $$ P(x,y) = P(x)P(y) \quad \text{ for all } x,y $$  
-> $$ h(x,y) = log_2 \frac{1}{P(x,y)}$$  
-> $$ = log_2 \frac{1}{P(x)} + log_2 \frac{1}{P(y)} $$
+> $$P(x,y) = P(x)P(y) \quad \text{ for all } x,y$$  
+> $$h(x,y) = log_2 \frac{1}{P(x,y)}$$  
+> $$= log_2 \frac{1}{P(x)} + log_2 \frac{1}{P(y)} $$
 
 ### Entropy
 
 The entropy of an ensemble is the average Shannon information content.
 
-> $$ H(X) = \displaystyle\sum_{x} P(x) \: log_2 \frac{1}{P(x)} \quad \text{bits}$$
+> $$H(X) = \displaystyle\sum_{x} P(x) \: log_2 \frac{1}{P(x)} \quad \text{bits}$$
 
 21:00

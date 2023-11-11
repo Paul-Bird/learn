@@ -51,10 +51,10 @@ Learning to write good proofs assists in skill needed to prove software code.
 > Corollary 1: In every state reachable from the start state the parity of the the number of inversions is unchanged.  
 >  
 > Proof By Invariant:  
-> $ P(n) $ : after any sequence of n moves  
-> Basecase: $ n=0 $, no moves no change to parity  
-> Inductive step: $ \forall n \geq 0, show P(n) \implies P(n+1) $  
-> By the inductive hypothesis $ P(n) $, we know that after moves $ m_1  \text{ to } m_n $ is odd  
+> $P(n)$ : after any sequence of n moves  
+> Basecase: $n=0 $, no moves no change to parity  
+> Inductive step: $\forall n \geq 0, show P(n) \implies P(n+1)$  
+> By the inductive hypothesis $P(n) $, we know that after moves $m_1  \text{ to } m_n$ is odd  
 > 
 
 

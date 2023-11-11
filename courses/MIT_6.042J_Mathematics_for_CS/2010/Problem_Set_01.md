@@ -6,10 +6,10 @@
 ---
 #### Problem 1
 
-Translate the following sentences from English to predicate logic. The domain that you are working over is $ X $, the set of people. You may use the functions $ S(x) $, meaning that “x has been a student of 6.042,” $ A(x) $, meaning that “x has gotten an ‘A’ in 6.042,” $ T(x) $ , meaning that “x is a TA of 6.042,” and $ E(x, y) $, meaning that “x and y are the same person.  
+Translate the following sentences from English to predicate logic. The domain that you are working over is $X$, the set of people. You may use the functions $S(x)$, meaning that “x has been a student of 6.042,” $A(x)$, meaning that “x has gotten an ‘A’ in 6.042,” $T(x)$ , meaning that “x is a TA of 6.042,” and $E(x, y)$, meaning that “x and y are the same person.  
 
 (a) [6 pts] There are people who have taken 6.042 and have gotten A’s in 6.042  
-$$ \exists x \in X : S(x) \land A(x) $$  
+$$\exists x \in X : S(x) \land A(x)$$  
 
 (b) [6 pts] All people who are 6.042 TA’s and have taken 6.042 got A’s in 6.042  
 $$ \forall x \in X : S(x) \land T(x) \implies S(x) \land A(x) $$ 

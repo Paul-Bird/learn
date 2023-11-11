@@ -68,7 +68,7 @@ Inductive Step: $\forall n \geq b \quad P(n) \implies P(n+1)$
 Conclude: $\qquad \forall n \geq b \quad P(n)$  
   
 
-> Courtyard $2^n by 2^n$ using L shaped tiles   
+> Courtyard $2^n \text{ by } 2^n$ using L shaped tiles   
 > Theorem: $\: \forall n, \exists$ a way to tile a $2^n \text{ by } 2^n$ region with one corner left over.  
 >  
 > Proof by induction:
