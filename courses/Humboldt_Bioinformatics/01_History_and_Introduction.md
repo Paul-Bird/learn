@@ -27,4 +27,80 @@ Sequence of RNA, DNA and proteins are the fundamental data types and alignment i
 
 [FASTQ format](https://en.wikipedia.org/wiki/FASTQ_format)  
 
-56min 25s
+[GenBank](https://www.ncbi.nlm.nih.gov/genbank/) genetic sequence database.  
+
+Sequence Annotation:
+- Location
+- Gene name
+- Structure
+- Function
+- Classification
+
+[Ensemble](https://www.ensembl.org/) database of sequences with annotation.  
+
+"Omics":
+- Genomics
+- Epigenomics 
+- Transcriptomics
+- Proteomics
+- Metabolomics
+- Phenomics
+
+#### Microarray Example
+
+[Cyanine](https://en.wikipedia.org/wiki/Cyanine) Cy3 and or Cy5 used for biological labeling. Scanner can read the results.  
+
+Workflow:
+- Create oligonucleotide arrays
+- Acquire samples
+- Extract and label the DNA
+- Hybridisation and scanning
+- Data storage
+- Data noprmalisation
+- Gene expression clustering
+- Data interpretation
+
+Humans gave ~25,000 genes, each gene is on average 10,000 to 15,000 base pairs long.
+- Each probe targets 20 to 40 base pairs.
+- Microarrays can contain 5 million probes, measure > 10,000 genes.
+
+Output of the scan picture converted to gene expression matrix.  
+
+Data normalisation needed:
+- Variations in amount of RNA.
+- Variations in the dynamic array of the scanner.
+- External condition variation such as temperature.
+
+Visualisations used to focus on differences between samples, calculate correlations to group related results.  
+
+Gene Expression Clustering:
+- Partition methods
+- Hierarchical
+- Fuzzy
+- Density based
+- Model based
+
+Most methods are based on a distance measure to ddetermine which samples are similar and which are different.  
+
+Statistical significance important.  
+
+#### Gene Ontology
+
+Initiative to unify the representation of gene and gene product attributes across all species.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
