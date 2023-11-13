@@ -52,6 +52,28 @@ Mendelian Examples:
 
 Determine the probability of an offspring having a particular genotype.  
 
+[Allele](https://en.wikipedia.org/wiki/Allele)  
+[Zygosity](https://en.wikipedia.org/wiki/Zygosity)  
+
+Additive vs Dominant phenotype  
+
+We can map Mendelian phenotypes back to the genome by measuring traits in parents and offspring and calculate the distance (co-occurance) between phenotypes.
+
+[Centimorgan](https://en.wikipedia.org/wiki/Centimorgan)  
+[Genetic linkage](https://en.wikipedia.org/wiki/Genetic_linkage) is the tendency of DNA sequences that are close together on a chromosome to be inherited together.  
+
+[Drosophila melanogaster](https://en.wikipedia.org/wiki/Drosophila_melanogaster) Thomas Hunt Morgan began using fruit flies in experimental studies of heredity at Columbia University in 1910.  
+
+Homozygous:  
+- Identical alleles of the gene are present on both homologous chromosomes.  
+
+Heterozygous:  
+- Cells contain two different alleles of a gene.
+
+Hemizygous:  
+- Only one copy is present (or when one copy of a gene is deleted).
+
+
 
 
 
