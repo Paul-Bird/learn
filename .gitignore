@@ -5,6 +5,7 @@
 !Makefile
 *.sln
 # Executables
+*.jar
 *.out
 [Bb]in/
 # Intermediate
