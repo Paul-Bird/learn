@@ -50,18 +50,63 @@ Parental variation of each chromosome, [allele](https://en.wikipedia.org/wiki/Al
 [Gametes](https://en.wikipedia.org/wiki/Gamete) are made by meiosis and are [haploid](https://en.wikipedia.org/wiki/Ploidy#Haploid_and_monoploid)  
 
 Chromosomes just after replication, before cell division become tightly compacted, in this compacted state a chromosome has three parts:  
-- [Centromere](https://en.wikipedia.org/wiki/Centromere)  
+- [Centromere](https://en.wikipedia.org/wiki/Centromere) joins  [Sister Chromatids](https://en.wikipedia.org/wiki/Sister_chromatids) 
 - [Telomere](https://en.wikipedia.org/wiki/Telomere)
 - [Origin of Replication](https://en.wikipedia.org/wiki/Origin_of_replication)
 
-30:39
+[Kinetochore](https://en.wikipedia.org/wiki/Kinetochore) protein for seperating the sister chromatids.
 
-[Kinetochore](https://en.wikipedia.org/wiki/Kinetochore)
+##### Cell Cycle
 
-[Anaphase](https://en.wikipedia.org/wiki/Anaphase)
+- $G_0$ Normal activity
+- $G_1$ Prepare to copy
+- $G_1-S$ Checkpoint
+- $S$ Sythesis
+- $G_2$ Prepare for mitosis & [Cytokinesis](https://en.wikipedia.org/wiki/Cytokinesis)
+- $G_2-M$ Checkpoint
+- $M$ Mitosis finishing with Cytokinesis
 
+All steps, other than Mitosis, are called [Interphase](https://en.wikipedia.org/wiki/Interphase). 
 
+Things that can go wrong
 
+- DNA damage
+- Viral infection
+- Loss of ATP production
+
+##### Interphase
+
+Cell obtains nutrients and metabolizes them, grows, replicates its DNA in preparation for mitosis, and conducts other "normal" cell functions.
+
+[Cohesin](https://en.wikipedia.org/wiki/Cohesin) protein complex that mediates sister chromatid cohesion.  
+
+##### Mitosis
+
+1 [Prophase](https://en.wikipedia.org/wiki/Prophase)
+- Condensation of chromosomes.
+- Movement of [centrosomes](https://en.wikipedia.org/wiki/Centrosome).
+- Formation of the mitotic spindle.
+- Beginning of nucleoli breakdown.
+
+2 [Prometaphase](https://en.wikipedia.org/wiki/Prometaphase)  
+- Disintegration of the nuclear membrane
+- Microtubles attach to the chromatids
+- Microtubles lengthen and shorten pulling at the chromosome
+
+3 [Metaphase](https://en.wikipedia.org/wiki/Metaphase)
+- Chromosomes are aligned from the Microtubial pulling.
+- alignment is checked by equal tension at the centrosomes.
+
+4 [Anaphase](https://en.wikipedia.org/wiki/Anaphase)
+- Cohesin disolves, chromosome splits.
+
+5 [Telophase](https://en.wikipedia.org/wiki/Telophase)
+- Nuclear envelope is re-assembled.
+
+6 [Cytokinesis](https://en.wikipedia.org/wiki/Cytokinesis)
+- Cytoplasm divides, forming two cells
+
+#### Sexual Reproduction
 
 
 
