@@ -21,8 +21,10 @@ Eukaryotic cell
 - Histones to wrap DNA around to form [Nucleosomes](https://en.wikipedia.org/wiki/Nucleosome)  
 - Nucleosomes form [chromatin](https://en.wikipedia.org/wiki/Chromatin) loops of ~100,000 base pairs.  
 
-Prokaryotic cells have no nucleus and only one chromosome. Cell division called [Binary Fission](https://en.wikipedia.org/wiki/Fission_(biology))    
-
+Prokaryotic cells have no nucleus and only one chromosome. Cell division called [Binary Fission](https://en.wikipedia.org/wiki/Fission_(biology))  
+In prokaryotes, [plectonemic](https://en.wiktionary.org/wiki/plectonemic) supercoils are predominant.  
+  
+  
 Eukaryotic division
 - Dissolve the nucleus.
 - Replicate each chromosome.
@@ -82,6 +84,8 @@ Cell obtains nutrients and metabolizes them, grows, replicates its DNA in prepar
 
 ##### Mitosis
 
+From a [Somatic](https://en.wikipedia.org/wiki/Somatic_(biology)) cell.  
+
 1 [Prophase](https://en.wikipedia.org/wiki/Prophase)
 - Condensation of chromosomes.
 - Movement of [centrosomes](https://en.wikipedia.org/wiki/Centrosome).
@@ -107,6 +111,77 @@ Cell obtains nutrients and metabolizes them, grows, replicates its DNA in prepar
 - Cytoplasm divides, forming two cells
 
 #### Sexual Reproduction
+
+Gametes fuse to create new life. The purpose of life is to reproduce, cells can reproduce. Meiosis allows for selective evolution to adapt to change.  
+
+Two stages of Meiosis from a [Germ cell](https://en.wikipedia.org/wiki/Germ_cell):  
+- Meiosis I: Reductive division, split pairs randomly into two cells with haploid number of chromosomes.
+- Meiosis II: Four gamete cells with haploid number of chromosomes.
+
+#### Meiosis I
+
+[Prophase I](https://en.wikipedia.org/wiki/Meiosis#Prophase_I)  
+- Chromosomes compact
+- [Synapsis](https://en.wikipedia.org/wiki/Synapsis) Homologous chromosomes line up side by side.
+- During synapsis four chromatids closely associated (group called a Tetrad).
+- Geonome shuffling known as [Chromosomal Crossover](https://en.wikipedia.org/wiki/Chromosomal_crossover) also see [Homologous recombination](https://en.wikipedia.org/wiki/Homologous_recombination) 
+
+Metaphase I  
+- Microtubules attach
+
+Anaphase I  
+- Chromosomes pull to opposite sides. Chromatides still attached.
+
+Telophase I
+- Reductive division  
+
+#### [Interkinesis](https://en.wikipedia.org/wiki/Interkinesis)  
+  
+#### Meiosis II
+
+Very much like Mitosis.  
+
+Prophase II  
+- spindles form and nuclear membranes breakdown
+
+Metaphase II  
+- Chromosomes line up in single file at the meta phase plate.  
+
+Anaphase II  
+- Chromatids are pulled to opposite sides.  
+
+Telophase II  
+- two new nuclei form and cells divide.  
+
+#### Meiosis Summary
+
+- Starting with one cell with 46 chromosomes.
+- One replication, two cell divisions.
+- We have four gamete cells each with 23 chromosomes.  
+
+[Independent Assortment](https://www.khanacademy.org/science/ap-biology/heredity/mendelian-genetics-ap/a/the-law-of-independent-assortment#:~:text=What%20is%20the%20law%20of,allele%20received%20for%20another%20gene.)  
+
+There are $2^23$ different possible combinations by mixing the parental chromosones for each gamete. In addition to the crossover that shuffles alleles.  
+  
+#### Comparison
+
+|Event|Mitosis|Meiosis I|Meiosis II|
+|---|:-:|:-:|:-:|
+|Cell division|Yes|Yes|Yes|
+|Chromosome reduction|No|Yes|No|
+|Genetic variation produced|No|Yes|No|
+|Crossing over|No|Yes|No|
+|Random distribution of parental chromosomes|No|Yes|No|
+|Metaphase|Individual chromosomes line up|Homologous pairs line up|Individual chromosomes line up|
+|Anaphase|Chromatids separate|Homologous chromosomes separate|Chromatids separate|
+
+Production of gametes in male animal is called [Spermatogenesis](https://en.wikipedia.org/wiki/Spermatogenesis). When meiosis I is complete secondary spermatocytes are made. The product of meiosis II are spermatids.  
+
+Production of gametes in female animal is called [oogenesis](https://en.wikipedia.org/wiki/Oogenesis). Cell division after meiosis I is unequal, one cell is considerably larger (the secondary oocyte) than the other (first polar body), by taking the majority of the cytoplasm and organelles.  
+The secondary oocyte undergoes meiosis II, again most of the cytoplasm and organelles going to one copy. The larger cell is called the [ovum](https://en.wikipedia.org/wiki/Egg_cell) a mature gamete. The smaller cell is the secondary polar body.  
+
+
+
 
 
 
