@@ -110,6 +110,26 @@ Why can every rational fraction be expressed in lowest terms
 > Let m be smallest $n \neq \frac{r^{n+1}-1}{r-1} \quad n \neq 1$  
 > Equality holds when $n = 0 \quad 1 = \frac{r^{0+1}-1}{r-1} =  \frac{r^1-1}{r-1} = \frac{r-1}{r-1}$   
 
-2:07
+2:07 TODO
+
+#### Propositional Operators
+
+A fixed assertion that is either True or False forever.  
+
+$G \implies (S \lor J)$  
+
+$G \implies (B \oplus C)$  
+
+$A \implies (B \land C)$  
+
+Definitions:  
+- OR: $(P \lor Q)$ True unless both $P$ and $Q$ are false.  
+- XOR: $(P \oplus Q)$ True only when one of $P$ or $Q$ are true.  
+- AND: $(P \land Q)$ True only when both $P$ and $Q$ are true.  
+
+#### 1.4.3 Digital Logic
+
+
+
 
 
