@@ -72,8 +72,14 @@ Heterozygous:
 
 Hemizygous:  
 - Only one copy is present (or when one copy of a gene is deleted).
+- Males are hemizygous recessive.
+
+[X-linked recessive inheritance](https://en.wikipedia.org/wiki/X-linked_recessive_inheritance)  
+
+[The chromosomal basis of inheritance](https://www.khanacademy.org/science/ap-biology/heredity/chromosomal-inheritance-ap/a/discovery-of-the-chromosomal-basis-of-inheritance)  
 
 
+P2 7:12
 
 
 
