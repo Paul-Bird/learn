@@ -39,6 +39,43 @@ $$\boxed{f'(x_0) = \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x)-f(x_0)}{\Delta 
 > $$\frac{-1}{(x_0 + \Delta x)x_0} \lim_{\Delta x \to 0} =$$
 > $$\frac{-1}{(x_0)^2}$$
   
+##### Example Work Problem:  
+
+Find the area of a triangle enclosed by the axes and the tangent to $y = \frac{1}{x}$  
+
+Tangent = $y-y_0 = \frac{-1}{x^2}(x-x_0)$  
+
+Find the x-intercept when $y=0$  
+>$0-\frac{-1}{x_0} = \frac{-1}{x^2}(x-x_0) = \frac{-x}{x^2} + \frac{1}{x_0}$  
+>$\frac{x}{x^2} = \frac{2}{x_0}$  
+
+$\boxed{x=2x_0}$  
+
+Shortcut to get the y-intercept:  
+>use symmetry: $\quad y=\frac{1}{x} \implies xy \implies x=\frac{1}{y}$  
+
+$\boxed{y=2y_0}$  
+
+The area of the triangle = $\boxed{\frac{1}{2}(2x_0)(2y_0)=2(x_0)(y_0)}$  
+
+#### Derivative Notation
+$$y=f(x), \Delta y=\Delta f$$
+$$f'=\frac{df}{dx} \quad f'=\frac{dy}{dx} \quad  f'=\frac{d}{dx}f  \quad f'=\frac{d}{dx}y$$
+
+#### Example 2
+
+$$f(x)=x^n, n=1,2,3$$
+$$\frac{d}{dx}x^n=$$
+$$\frac{\Delta f}{\Delta x}=\frac{(x+\Delta x)^n-x^n}{\Delta x}$$  
+
+Binomial Theorum
+
+[46:05](https://youtu.be/7K1sB05pE0A?t=2768)
+
+Power Rule: $\quad \boxed{\frac{d}{dx}x^n=nx^{n-1}}$
+
+Example: $\quad \frac{d}{dx}(x^3+5x^{10})=3x^2+50x^9$  
+
 #### Physical interpretation  
 
 
