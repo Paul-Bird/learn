@@ -44,8 +44,8 @@ $U \Sigma V^T = \begin{bmatrix} \\\ | & | & & | \\\ u_1 & u_2 & ... & u_m \\\ | 
 
 $U, V$ unitary  
 
-$UU^T=U^TU=I_{nxn}$  
-$VV^T=V^TV=I_{mxm}$  
+$UU^T=U^TU=I_{n \times n}$  
+$VV^T=V^TV=I_{m \times m}$  
 $\Sigma$ diagonal, decreasing magnitude: ${\sigma}_1 \geq {\sigma}_2 \geq ... \geq {\sigma}_m \geq 0 $  
 
 Python - NumPy  
