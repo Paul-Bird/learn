@@ -27,8 +27,13 @@ Water molecule can make 4 possible H-Bonds, one from each hydrogen and two from 
 
 These 4 H-Bonds are what gives ice it's crystaline structure.  
 
-#### Universal Solvent 
-[1B](https://youtu.be/WN9s7yMcLF8?list=PL5xvztUyPgDqBLP4fq8FDtU3-7wtmQLG6&t=4)
+#### Water - The Universal Solvent 
+[1B](https://youtu.be/WN9s7yMcLF8?list=PL5xvztUyPgDqBLP4fq8FDtU3-7wtmQLG6&t=4)  
 
 
-####
+#### Water - Acids and Bases
+[1C](https://www.youtube.com/watch?v=7ghsjpdnACE&list=PL5xvztUyPgDqBLP4fq8FDtU3-7wtmQLG6&index=4)  
+
+
+#### Water - Buffers
+[1D](https://www.youtube.com/watch?v=4wcV33rdHVA&list=PL5xvztUyPgDqBLP4fq8FDtU3-7wtmQLG6&index=5)  
