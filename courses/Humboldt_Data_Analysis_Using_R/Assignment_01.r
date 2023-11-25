@@ -4,17 +4,30 @@
 #1a) Addition
 1234 + 4567
 #1b) Subtraction
-100 - 77  
+100 - 77
 #1c) Logarithm
 log(15)
 #1d) Division
-4596 / 12 
+4596 / 12
 #1e) Multiplication
 25 * 25
 #1f) Modulo
 10 %% 6
 #1g) Complex Square root
 sqrt(-8 + 0i)
+#
+10 %/% 6
+Inf + 1
+letters[10]
+month.name[10]
+pi
+sin(pi / 6)
+cos(pi / 3)
+tan(pi / 4)
+exp(1)
+log10(100)
+log2(256)
+exp(1)
 #
 # Vectors
 #

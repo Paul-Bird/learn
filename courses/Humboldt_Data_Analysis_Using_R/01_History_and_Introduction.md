@@ -38,7 +38,43 @@
 - R Studio / command line  
 
 ### R as a Calculator
+```
+> 1+4
+[1] 5
+> 5^2
+[1] 25
+> 5**2
+[1] 25
+>10%%6
+[1] 4
+>10 %/% 6
+[1]1
+>log(25)
+[1] 3.218876
+>Inf + 1
+[1] Inf
+```
 
+```
+>letters[10]
+[1] "j"
+>LETTERS[10]
+[1] "J"
+>month.name[10]
+[1] "October"
+```
+
+### Session
+```
+>getwd()
+>ls()
+```
+
+
+### Packages
+[R/qtl](https://rqtl.org/)
+
+[V](https://youtu.be/FbFMFcV2yBM?list=PLhR2Go-lh6X4fCAa3c_TBAjZD5A25s7fo&t=6786)
 
 
 
