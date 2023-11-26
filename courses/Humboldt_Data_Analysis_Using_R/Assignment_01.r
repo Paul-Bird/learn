@@ -40,6 +40,10 @@ vec2
 #2c) Use the seq() function to create a vector from 1 to 100 step 5
 vec3 <- seq(1, 100, 5)
 vec3
+sqrt(vec3)
+class(c(vec2, vec3))
+vec4 <- LETTERS[seq(2, 26, 2)]
+vec4
 #
 # Matrices
 #
