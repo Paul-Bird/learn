@@ -43,3 +43,7 @@ vec3
 #
 # Matrices
 #
+matrix1a <- matrix(1:100, nrow = 10, ncol = 10)
+matrix1b <- matrix(1:100, nrow = 10, ncol = 10, byrow = TRUE)
+rownames(matrix1a) <- paste(rep("measurement",10),1:10, sep = " ")
+matrix1a

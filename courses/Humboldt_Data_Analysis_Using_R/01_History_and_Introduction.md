@@ -319,6 +319,16 @@ D 13 14 15 16
 
 [Variables](https://youtu.be/FbFMFcV2yBM?list=PLhR2Go-lh6X4fCAa3c_TBAjZD5A25s7fo&t=11055)  
 
+Can use <- or = for assignment.  
+
+```> mm <- 5```  
+```> mm = 5```  
+```> 5 -> mm```  
+
+
+
+
+
 
 
 
