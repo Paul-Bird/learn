@@ -121,7 +121,44 @@ if (TRUE) warning("be careful")
 
 if (TRUE) stop("error! stopped")
 
-### Functions
+tryCatch( sqrt(-1),
+    error = function(e) {
+        print("oops")
+    },
+    finally = print("finally")
+)
+
+```
+[1] "finally"
+[1] NaN
+```
+
+```
+X <- c("A","B","C")
+lapply(X, cat)
+
+X <- c(4,9,16)
+lapply(X,sqrt)
+
+X <- c(4,9,16)
+unlist(lapply(X,"*",2))
+```
+
+```
+X <- matrix(1:16,nrow = 4, ncol = 4)
+apply(X, c(1,2), sqrt)
+```
+```
+         [,1]     [,2]     [,3]     [,4]
+[1,] 1.000000 2.236068 3.000000 3.605551
+[2,] 1.414214 2.449490 3.162278 3.741657
+[3,] 1.732051 2.645751 3.316625 3.872983
+[4,] 2.000000 2.828427 3.464102 4.000000
+```
+
+### [Functions](https://youtu.be/bldXk_mVMuI?list=PLhR2Go-lh6X4fCAa3c_TBAjZD5A25s7fo&t=8476)
+
+
 
 
 ### Brackets
