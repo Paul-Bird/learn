@@ -75,6 +75,9 @@ Binomial Theorum
 Power Rule: $\quad \boxed{\frac{d}{dx}x^n=nx^{n-1}}$
 
 Example: $\quad \frac{d}{dx}(x^3+5x^{10})=3x^2+50x^9$  
+ 
+[L2](https://www.youtube.com/watch?v=ryLdyDrBfvI&list=PL590CCC2BC5AF3BC1&index=2)  
+
 
 #### Physical interpretation  
 
