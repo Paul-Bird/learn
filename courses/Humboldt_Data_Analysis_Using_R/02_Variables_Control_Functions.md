@@ -158,8 +158,52 @@ apply(X, c(1,2), sqrt)
 
 ### [Functions](https://youtu.be/bldXk_mVMuI?list=PLhR2Go-lh6X4fCAa3c_TBAjZD5A25s7fo&t=8476)
 
+```
+myFunction <- function(param1, param2){
+    return(param1 * param2)
+}
+```
+```myFunction(10,10)```
+```
+[1] 100
+```
+#### Pass by Promise
 
+Parameters are references, unless they are changed then they become copies and are passed by value.
+```
+p1 = 10
+p2 = 10
+param2
+p <- function(param1, param2=5){
+    param1 = 12
+    cat("param1 change to ", param1, "\n")
+    return(param1 * param2)
+}
+p1
+p(p1,p2) # 12 * 10 is 120
+cat("p1 is still 10")
+p1
+p(p1) # 12 * 5 is 60
+```
 
+```
+# Note: There is a built-in sum function
+addup <- function(...) {
+    r = 0
+    for (i in list(...)) {
+        r = r + i
+    }
+    return(r)
+}
+addup(1,2,3)
+```
 
 ### Brackets
+
+- () functions and control structures
+- [] index to a vector, matrix or data.frame
+- [[]] index in a list
+- {} code block
+
+
 
